@@ -2,15 +2,15 @@ package edu.claudio.primeirasemana;
 public class MyClass {
    
     public static void main (String [] args) {
-        String primeiroNome = "Rafael";
-        String segundoNome = "Matheus";
+        String firstName = "Rafael";
+        String secondName = "Matheus";
 
-        String nomeCompleto = RetornarNomes(primeiroNome, segundoNome);
-        System.out.println(nomeCompleto);
+        String fullName = ReturnNames(firstName, secondName);
+        System.out.println(fullName);
     }
 
-    public static String RetornarNomes(String primeiroNome, String segundoNome) {
-        return primeiroNome.concat(" ").concat(segundoNome);
+    public static String ReturnNames(String firstName, String secondName) {
+        return firstName.concat(" ").concat(secondName);
     }
 
 }
