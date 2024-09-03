@@ -1,3 +1,5 @@
+package projectAccountBank;
+
 import java.util.Scanner;
 
 public class AccountTerminal {

@@ -1,4 +1,4 @@
-package lanchonete;
+package estudosPooJava.lanchonete.atendimento;
 
 public class Atendente {
     

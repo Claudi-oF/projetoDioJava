@@ -1,4 +1,4 @@
-package PilaresDaPoo;
+package estudosGettersSetters.PilaresDaPoo;
 
 public class Carro extends Veiculo {
     

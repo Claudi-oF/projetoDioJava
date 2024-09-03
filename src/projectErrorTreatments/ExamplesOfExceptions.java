@@ -1,3 +1,5 @@
+package projectErrorTreatments;
+
 public class ExamplesOfExceptions {
     public static void main(String[] args) {
         

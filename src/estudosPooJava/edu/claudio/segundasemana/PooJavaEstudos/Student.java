@@ -1,4 +1,4 @@
-package edu.claudio.segundasemana.PooJavaEstudos;
+package estudosPooJava.edu.claudio.segundasemana.PooJavaEstudos;
 
 // Criando a class Students
 // Com todas as caracteristicas e comportamentos aplicados
@@ -20,8 +20,4 @@ public class Student {
     }
 }
 
-public class School {
-    public static void main(String[] args) {
-        
-    }
-}
+

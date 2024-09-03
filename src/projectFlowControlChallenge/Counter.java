@@ -1,3 +1,5 @@
+package projectFlowControlChallenge;
+
 import java.util.Scanner;
 
 public class Counter {

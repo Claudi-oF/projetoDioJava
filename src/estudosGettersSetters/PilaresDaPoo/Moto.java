@@ -1,4 +1,4 @@
-package PilaresDaPoo;
+package estudosGettersSetters.PilaresDaPoo;
 
 public class Moto extends Veiculo {
     @Override

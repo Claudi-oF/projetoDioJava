@@ -1,4 +1,4 @@
-package Selection;
+package projectSelectionProcess.Selection;
 import java.util.Scanner;
 
 public class SelectionProcessWithoutArrayForTheSelectedCandidates {

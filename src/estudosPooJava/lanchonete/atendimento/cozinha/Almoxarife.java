@@ -1,4 +1,4 @@
-package lanchonete.atendimento.cozinha;
+package estudosPooJava.lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
     

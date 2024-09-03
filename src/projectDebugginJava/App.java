@@ -1,3 +1,5 @@
+package projectDebugginJava;
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Inciated program in the method main");

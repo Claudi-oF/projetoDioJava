@@ -1,3 +1,5 @@
+package projectDebugginJava;
+
 import java.util.Scanner;
 
 public class MediaCalculator {

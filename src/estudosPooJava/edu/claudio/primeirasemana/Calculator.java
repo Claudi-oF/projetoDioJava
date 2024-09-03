@@ -1,4 +1,4 @@
-package edu.claudio.primeirasemana;
+package estudosPooJava.edu.claudio.primeirasemana;
 import java.util.Scanner;
 
 public class Calculator {

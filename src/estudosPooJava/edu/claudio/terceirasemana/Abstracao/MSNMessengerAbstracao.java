@@ -6,14 +6,12 @@ public class MSNMessengerAbstracao extends ServicoMensagemInstantaneaAbstracao{
 
     @Override
     public void enviarMensagem() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'enviarMensagem'");
+        System.out.println("Enviando mensagem pelo msn");
     }
 
     @Override
     public void receberMensagem() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'receberMensagem'");
+        System.out.println("Recebendo mensagem pelo msn");
     }
     
 }

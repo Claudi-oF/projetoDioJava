@@ -1,4 +1,4 @@
-package Enums;
+package estudosGettersSetters.Enums;
 
 public enum EstadosBrasileiros {
     SAO_PAULO("SP", "São Paulo", 10),

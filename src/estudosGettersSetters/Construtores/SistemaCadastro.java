@@ -1,4 +1,4 @@
-package Construtores;
+package estudosGettersSetters.Construtores;
 
 public class SistemaCadastro {
     public static void main(String[] args) {

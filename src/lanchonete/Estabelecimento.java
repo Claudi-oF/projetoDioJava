@@ -1,6 +1,6 @@
 package lanchonete;
 
-import lanchonete.atendimento.cozinha.Cozinheiro;
+import estudosPooJava.lanchonete.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
     public static void main(String[] args) {

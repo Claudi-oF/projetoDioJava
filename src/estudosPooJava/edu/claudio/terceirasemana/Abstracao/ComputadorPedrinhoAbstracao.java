@@ -4,22 +4,20 @@ import estudosPooJava.edu.claudio.terceirasemana.Encapsulamento.MSNMessenger;
 
 public class ComputadorPedrinhoAbstracao {
     public static void main(String[] args) {
-        //abring msn messenger
-        MSNMessenger msg = new MSNMessenger();
+        ServicoMensagemInstantaneaAbstracao smi = null;
 
-        msg.enviarMensagem();
-        msg.receberMensagem();
+        String appEscolhido = "fcb";
 
-        //abring facebook messenger
-        FacebookMessengerAbstracao fcb = new FacebookMessengerAbstracao();
+        if (appEscolhido.equals("msn")) {
+            smi = new MSNMessengerAbstracao();
+        } else if (appEscolhido.equals("fcb")) {
+            smi = new FacebookMessengerAbstracao();
+        } else if (appEscolhido.equals("telegram")) {
+            smi = new TelegramAbstracao();
+        } 
 
-        fcb.enviarMensagem();
-        fcb.receberMensagem();
-
-        //abring msn messenger
-        TelegramAbstracao telegram = new TelegramAbstracao();
-
-        telegram.enviarMensagem();
-        telegram.receberMensagem();
+        smi.enviarMensagem();
+        smi.receberMensagem();
+        
     }
 }

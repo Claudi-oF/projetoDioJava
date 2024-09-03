@@ -1,4 +1,4 @@
-package PilaresDaPoo;
+package estudosGettersSetters.PilaresDaPoo;
 
 public abstract class Veiculo {
     private String chassi;

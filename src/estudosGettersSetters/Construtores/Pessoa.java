@@ -1,4 +1,4 @@
-package Construtores;
+package estudosGettersSetters.Construtores;
 
 public class Pessoa {
     private String nome;

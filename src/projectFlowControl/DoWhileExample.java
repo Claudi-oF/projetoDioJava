@@ -1,3 +1,5 @@
+package projectFlowControl;
+
 import java.util.Random;
 
 public interface DoWhileExample {

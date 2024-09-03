@@ -1,4 +1,4 @@
-package escola;
+package estudosGettersSetters.escola;
 
 public class Aluno {
     private String nome;

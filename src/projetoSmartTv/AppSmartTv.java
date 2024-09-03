@@ -1,3 +1,5 @@
+package projetoSmartTv;
+
 public class AppSmartTv {
     
     boolean tvPower = false;

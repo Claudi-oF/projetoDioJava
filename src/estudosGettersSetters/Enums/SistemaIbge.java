@@ -1,4 +1,4 @@
-package Enums;
+package estudosGettersSetters.Enums;
 
 public class SistemaIbge {
     public static void main(String[] args) {

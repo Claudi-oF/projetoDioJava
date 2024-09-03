@@ -1,4 +1,4 @@
-package edu.claudio.segundasemana.PooJavaEstudos;
+package estudosPooJava.edu.claudio.segundasemana.PooJavaEstudos;
 
 import java.awt.Color;
 
