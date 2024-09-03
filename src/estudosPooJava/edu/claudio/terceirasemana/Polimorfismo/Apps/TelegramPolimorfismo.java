@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.terceirasemana.Polimorfismo;
+package estudosPooJava.edu.claudio.terceirasemana.Polimorfismo.Apps;
 
 import estudosPooJava.edu.claudio.terceirasemana.Abstracao.MSNMessengerAbstracao;
 
@@ -6,6 +6,7 @@ public class TelegramPolimorfismo extends ServicoMensagemInstantaneaPolimorfismo
 
     @Override
     public void enviarMensagem() {
+        validarConectadoInternet();
         System.out.println("Enviando mensagem pelo telegram");
     }
 

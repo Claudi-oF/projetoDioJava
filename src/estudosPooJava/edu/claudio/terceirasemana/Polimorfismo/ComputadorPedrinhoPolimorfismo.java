@@ -1,11 +1,12 @@
 package estudosPooJava.edu.claudio.terceirasemana.Polimorfismo;
-
-import estudosPooJava.edu.claudio.terceirasemana.Encapsulamento.MSNMessenger;
+import estudosPooJava.edu.claudio.terceirasemana.Polimorfismo.Apps.MSNMessengerPolimorfismo;
+import estudosPooJava.edu.claudio.terceirasemana.Polimorfismo.Apps.FacebookMessengerPolimorfismo;
+import estudosPooJava.edu.claudio.terceirasemana.Polimorfismo.Apps.TelegramPolimorfismo;
 
 public class ComputadorPedrinhoPolimorfismo {
     public static void main(String[] args) {
         //abring msn messenger
-        MSNMessenger msg = new MSNMessenger();
+        MSNMessengerPolimorfismo msg = new MSNMessengerPolimorfismo();
 
         msg.enviarMensagem();
         msg.receberMensagem();
