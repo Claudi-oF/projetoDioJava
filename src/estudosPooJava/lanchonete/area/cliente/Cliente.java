@@ -1,4 +1,4 @@
-package lanchonete.area.cliente;
+package estudosPooJava.lanchonete.area.cliente;
 
 public class Cliente {
     
