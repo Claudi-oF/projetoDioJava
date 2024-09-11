@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.semana3.Lista;
+package estudosPooJava.edu.claudio.semana3.Lista.OperacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,14 +18,14 @@ public class ListaTarefa {
     public void removerTarefa(String descricao) {
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
         if (!tarefaList.isEmpty()) {
-        for (Tarefa t : tarefaList) {
-            if (t.getDescricao().equalsIgnoreCase(descricao)) {
-            tarefasParaRemover.add(t);
+            for (Tarefa t : tarefaList) {
+                if (t.getDescricao().equalsIgnoreCase(descricao)) {
+                    tarefasParaRemover.add(t);
+                }
             }
-        }
-        tarefaList.removeAll(tarefasParaRemover);
+            tarefaList.removeAll(tarefasParaRemover);
         } else {
-        System.out.println("A lista está vazia!");
+            System.out.println("A lista está vazia!");
         }
     }
 
@@ -35,9 +35,9 @@ public class ListaTarefa {
 
     public void obterDescricoesTarefas() {
         if (!tarefaList.isEmpty()) {
-        System.out.println(tarefaList);
+            System.out.println(tarefaList);
         } else {
-        System.out.println("A lista está vazia!");
+            System.out.println("A lista está vazia!");
         }
     }
 
@@ -51,7 +51,7 @@ public class ListaTarefa {
         listaTarefa.adicionarTarefa("Fazer exercícios");
 
         // Exibindo o número total de tarefas na lista
-        System.out.println("Você tem " + listaTarefa.obterNumeroTotalTarefas() + " tarefas na lista:");
+        System.out.println("O numero total de tarefas é: " + listaTarefa.obterNumeroTotalTarefas());
 
         // Exibindo as descrições das tarefas na lista
         listaTarefa.obterDescricoesTarefas();

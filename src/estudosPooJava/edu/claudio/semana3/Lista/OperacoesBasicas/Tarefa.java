@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.semana3.Lista;
+package estudosPooJava.edu.claudio.semana3.Lista.OperacoesBasicas;
 
 public class Tarefa {
     //atributo  
@@ -11,6 +11,13 @@ public class Tarefa {
 
     public String getDescricao() {
         return descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Tarefa{" + 
+            "descricao='" + descricao + '\'' +   
+        '}';
     }
 
 }
