@@ -1,0 +1,92 @@
+[33mcommit d56c11b7f022f93d9201ce6b72fab309151a1a2f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Claudi-oF <claudiofilhocf123@gmail.com>
+Date:   Wed Sep 11 19:36:32 2024 -0300
+
+    Pesquisa List
+
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/CarrinhoDeCompras.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/CarrinhoDeCompras.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0e251a8[m
+Binary files /dev/null and b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/CarrinhoDeCompras.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Item.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Item.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bd5cb80[m
+Binary files /dev/null and b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Item.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/ListaTarefa.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/ListaTarefa.class[m
+[1msimilarity index 68%[m
+[1mrename from bin/estudosPooJava/edu/claudio/semana3/Lista/ListaTarefa.class[m
+[1mrename to bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/ListaTarefa.class[m
+[1mindex 2f48d63..73446c5 100644[m
+Binary files a/bin/estudosPooJava/edu/claudio/semana3/Lista/ListaTarefa.class and b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/ListaTarefa.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Tarefa.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Tarefa.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..13a533b[m
+Binary files /dev/null and b/bin/estudosPooJava/edu/claudio/semana3/Lista/OperacoesBasicas/Tarefa.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/CatalogoLivros.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/CatalogoLivros.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..8073759[m
+Binary files /dev/null and b/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/CatalogoLivros.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/Livro.class b/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/Livro.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1377a69[m
+Binary files /dev/null and b/bin/estudosPooJava/edu/claudio/semana3/Lista/PesquisaEmList/Livro.class differ
+[1mdiff --git a/bin/estudosPooJava/edu/claudio/semana3/Lista/README.md b/bin/estudosPooJava/edu/claudio/semana3/Lista/README.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7115fd6[m
+[1m--- /dev/null[m
+[1m+++ b/bin/estudosPooJava/edu/claudio/semana3/Lista/README.md[m
+[36m@@ -0,0 +1,104 @@[m
+[32m+[m[32m# List Interface[m
+[32m+[m
+[32m+[m[32m<p align="center">[m
+[32m+[m[32m<img src="../../../../assets/image/list-interface-hierarchy.png" alt="List interface hierarchy Java"><br>[m
+[32m+[m[32m<a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m- A interface <code>List</code> é uma coleção ordenada que permite a inclusão de elementos duplicados.[m
+[32m+[m[32m- É um dos tipos de coleção mais utilizados em Java, e as classes de implementação comuns são <code>ArrayList</code> e <code>LinkedList</code>.[m
+[32m+[m[32m- A <code>List</code> se assemelha a uma matriz com comprimento dinâmico, permitindo adicionar ou remover elementos.[m
+[32m+[m[32m- A interface <code>List</code> fornece métodos úteis para adicionar elementos em posições específicas, remover ou substituir elementos com base no índice e obter sublistas usando índices.[m
+[32m+[m[32m- A classe <code>Collections</code> fornece algoritmos úteis para manipulação de <code>List</code>, como ordenação (sort), embaralhamento (shuffle), reversão (reverse) e busca binária (binarySearch).[m
+[32m+[m
+[32m+[m[32m> ##### *ArrayList*: O ArrayList é uma implementação da interface List que armazena os elementos em uma estrutura de array redimensionável. Isso significa que ele pode crescer automaticamente à medida que novos elementos são adicionados. A principal vantagem do ArrayList é o acesso rápido aos elementos por meio de índices, o que permite recuperar um elemento específico de forma eficiente. No entanto, adicionar ou remover elementos no meio da lista pode ser mais lento, pois requer a realocação de elementos.[m
+[32m+[m
+[32m+[m[32m> ##### *LinkedList*: O LinkedList é uma implementação da interface List que armazena os elementos em uma lista duplamente vinculada. Cada elemento contém referências para o elemento anterior e próximo na lista. A principal vantagem do LinkedList é a eficiência na adição ou remoção de elementos no início ou no final da lista, pois não é necessário realocar elementos. No entanto, o acesso aos elementos por meio de índices é mais lento, pois requer percorrer a lista até o elemento desejado.[m
+[32m+[m
+[32m+[m[32m> ##### *Vector*: O Vector é uma implementação antiga da interface List que é semelhante ao ArrayList, mas é sincronizada, ou seja, é thread-safe. Isso significa que várias threads podem manipular um objeto Vector ao mesmo tempo sem causar problemas de concorrência. No entanto, essa sincronização adiciona uma sobrecarga de desempenho, tornando o Vector menos eficiente do que o ArrayList em cenários em que a concorrência não é um problema. Por esse motivo, o uso do Vector é menos comum em aplicações modernas.[m
+[32m+[m
+[32m+[m[32m### Referências:[m
+[32m+[m
+[32m+[m[32m[1] "Collections in Java Tutorial." DigitalOcean Community. Disponível em: https://www.digitalocean.com/community/tutorials/collections-in-java-tutorial.[m
+[32m+[m
+[32m+[m[32m[2] "Java™ Platform, Standard Edition 17 API Specification - Class List." Oracle. Disponível em: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html.[m
+[32m+[m
+[32m+[m[32m# Fixando os Conhecimentos[m
+[32m+[m
+[32m+[m[32mExercícios:[m
+[32m+[m
+[32m+[m[32m1. Operações Básicas com List[m
+[32m+[m[32m2. Pesquisa em List[m
+[32m+[m[32m3. Ordenação nas List[m
+[32m+[m
+[32m+[m[32m## Operações Básicas com List[m
+[32m+[m
+[32m+[m[32m### 1. Lista de Tarefas[m
+[32m+[m[32m<p>Crie uma classe chamada "ListaTarefas" que possui uma lista de tarefas como atributo. Cada tarefa é representada por uma classe chamada "Tarefa" que possui um atributo de descrição. Implemente os seguintes métodos:[m
+[32m+[m
+[32m+[m[32m- `adicionarTarefa(String descricao)`: Adiciona uma nova tarefa à lista com a descrição fornecida.[m
+[32m+[m[32m- `removerTarefa(String descricao)`: Remove uma tarefa da lista com base em sua descrição.[m
+[32m+[m[32m- `obterNumeroTotalTarefas()`: Retorna o número total de tarefas na lista.[m
+[32m+[m[32m- `obterDescricoesTarefas()`: Retorna uma lista contendo a descrição de todas as tarefas na lista.[m
+[32m+[m[32m</p>[m
+[32m+[m
+[32m+[m[32m### 2. Carrinho de Compras:[m
+[32m+[m
+[32m+[m[32m<p>Crie uma classe chamada "CarrinhoDeCompras" que representa um carrinho de compras online. O carrinho deve ser implementado como uma lista de itens. Cada item é representado por uma classe chamada "Item" que possui atributos como nome, preço e quantidade. Implemente os seguintes métodos:[m
+[32m+[m
+[32m+[m[32m- `adicionarItem(String nome, double preco, int quantidade)`: Adiciona um item ao carrinho com o nome, preço e quantidade especificados.[m
+[32m+[m[32m- `removerItem(String nome)`: Remove um item do carrinho com base no seu nome.[m
+[32m+[m[32m- `calcularValorTotal()`: Calcula e retorna o valor total do carrinho, levando em consideração o preço e a quantidade de cada item.[m
+[32m+[m[32m- `exibirItens()`: Exibe todos os itens presentes no carrinho, mostrando seus nomes, preços e quantidades.[m
+[32m+[m[32m</p>[m
+[
