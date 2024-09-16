@@ -12,7 +12,7 @@ public class AgendaContatos {
         this.agendaContatosMap = new HashMap<>();
     }
 
-    public void adicionaContato(String nome, Integer telefone) {
+    public void adicionaContato(String nome, int telefone) {
         agendaContatosMap.put(nome, telefone);
     }
 
