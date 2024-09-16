@@ -1,7 +1,5 @@
 package estudosPooJava.edu.claudio.semana3.Map.PesquisaMap;
 
-import estudosPooJava.edu.claudio.semana3.Conjuntos.Ordenacao.Produto;
-
 import java.util.HashMap;
 import java.util.Map;
 

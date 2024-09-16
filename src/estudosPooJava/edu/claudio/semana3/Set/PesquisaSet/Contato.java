@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.semana3.Conjuntos.PesquisaSet;
+package estudosPooJava.edu.claudio.semana3.Set.PesquisaSet;
 
 import java.util.Objects;
 

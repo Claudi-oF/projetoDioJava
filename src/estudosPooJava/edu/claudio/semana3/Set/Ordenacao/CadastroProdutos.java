@@ -1,6 +1,5 @@
-package estudosPooJava.edu.claudio.semana3.Conjuntos.Ordenacao;
+package estudosPooJava.edu.claudio.semana3.Set.Ordenacao;
 
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;

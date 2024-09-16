@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.semana3.Conjuntos.Ordenacao;
+package estudosPooJava.edu.claudio.semana3.Set.Ordenacao;
 
 import java.util.Comparator;
 import java.util.Objects;

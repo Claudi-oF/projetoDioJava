@@ -1,6 +1,5 @@
-package estudosPooJava.edu.claudio.semana3.Conjuntos.PesquisaSet;
+package estudosPooJava.edu.claudio.semana3.Set.PesquisaSet;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 

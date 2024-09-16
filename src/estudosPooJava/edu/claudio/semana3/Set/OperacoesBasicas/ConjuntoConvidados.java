@@ -1,4 +1,4 @@
-package estudosPooJava.edu.claudio.semana3.Conjuntos.OperacoesBasicas;
+package estudosPooJava.edu.claudio.semana3.Set.OperacoesBasicas;
 
 import java.util.HashSet;
 import java.util.Set;
